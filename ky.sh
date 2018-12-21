@@ -61,7 +61,7 @@ sql=mysql_$RANDOM;export sql=$sql
 peizhi='peizhi.zip';export peizhi=$peizhi
 phpmyadmin=phpmyadmin.tar.gz;export phpmyadmin=$phpmyadmin
 IP=`wget http://members.3322.org/dyndns/getip -O - -q ; echo`;
-Host='coding.net/u/q623549199/p/ky/git/raw/master';export Host=$Host
+Host='github.com/asd19940315/ky/edit/master';export Host=$Host
 # Ksq1=`curl -s http://kyun.kuaiyum.com:8888/Check/api.php?act=cx\&ip=$IP`;
 # Ksq2=`curl -s http://kyun.kuaiyum.com:8888/Check/api.php?act=hmd\&ip=$IP`;
 localserver=`curl -s ip.cn`;fwq=`echo $localserver|awk '{print $4}'`;export fwq=$fwq
